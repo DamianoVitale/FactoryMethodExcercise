@@ -10,7 +10,7 @@ try
     var food3 = FoodFactory.Get(FoodEnum.Meat, "Hamburger ", 2.52);
     food1.DisplayInfo();
     food2.DisplayInfo();
-    food3.DisplayInfo();
+food3.DisplayInfo();
 
 
 
