@@ -13,15 +13,8 @@ namespace Esercizio1.Library
         
         public void RemoveItem(IFood food) => Foods.Remove(food);
         
-        public double CalculateTotal()
-        { 
-            Foods.Add(food);
-        }
-        public void RemoveItem(IFood food) 
-        {
-            Foods.Remove(food);
-        }
-        double CalculateTotal()
+      
+       public double CalculateTotal()
         {
             double total = 0;
             foreach (IFood food in Foods)

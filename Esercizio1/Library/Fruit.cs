@@ -26,11 +26,5 @@ namespace Esercizio1.Library
 
             Console.WriteLine($"the food {Name} is {Type} with expiry date {ExpirationDate.Date.ToString("dd/MM/yyyy")} and price: ${Price}");
 
-
-
-        public double GetPrice()
-        {
-            return Price;
-        }
     }
 }

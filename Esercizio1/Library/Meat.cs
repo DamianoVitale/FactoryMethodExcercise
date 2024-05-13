@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Esercizio1.Library
 {
-     class Meat : IFood
+    class Meat : IFood
     {
         public string Type { get; }
         public string Name { get; }
@@ -19,14 +19,11 @@ namespace Esercizio1.Library
             Price = price;
             ExpirationDate = DateTime.Now.Date.AddDays(10);
             Type = "Meat";
-            
+
         }
         public void DisplayInfo() =>
-        
-            Console.WriteLine($"the food {Name} is {Type} with expiry date {ExpirationDate.Date.ToString("dd/MM/yyyy")} and price: ${Price}");
-        
 
-       
+            Console.WriteLine($"the food {Name} is {Type} with expiry date {ExpirationDate.Date.ToString("dd/MM/yyyy")} and price: ${Price}");
 
     }
 }
