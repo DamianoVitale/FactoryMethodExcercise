@@ -8,7 +8,11 @@ namespace Esercizio1.Library
 {
     public interface IFood
     {
-        double GetPrice();
+        public string Type { get; }
+        public string Name { get; }
+        public double Price { get; }
+        public DateTime ExpirationDate { get; }
+        
         void DisplayInfo();
     }
 }

@@ -8,10 +8,10 @@ namespace Esercizio1.Library
 {
     internal class Vegetables : IFood
     {
-        string Type { get; }
-        string Name { get; }
-        double Price { get; }
-        DateTime ExpirationDate { get; }
+        public string Type { get; }
+        public string Name { get; }
+        public double Price { get; }
+        public DateTime ExpirationDate { get; }
 
         public Vegetables(string name, double price)
         {
@@ -26,6 +26,6 @@ namespace Esercizio1.Library
            Console.WriteLine($"the food {Name} is {Type} with expiry date {ExpirationDate.Date.ToString("dd/MM/yyyy")} and price: ${Price}");
 
 
-        public double GetPrice() => Price;
+        
     }
 }

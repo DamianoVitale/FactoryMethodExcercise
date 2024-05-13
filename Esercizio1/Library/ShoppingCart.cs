@@ -18,7 +18,7 @@ namespace Esercizio1.Library
             double total = 0;
             foreach (IFood food in Foods)
             {
-                total = total + food.GetPrice();
+                total = total + food.Price;
             }
             
             return Math.Round(total, 2);
